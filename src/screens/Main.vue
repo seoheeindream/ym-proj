@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-[917px] relative overflow-hidden bg-[url('/main.jpg')] bg-cover bg-no-repeat bg-top text-center text-white font-cafe24-pro-up"
+    class="w-full h-[917px] relative overflow-hidden bg-[url('./main.jpg')] bg-cover bg-no-repeat bg-top text-center text-white font-cafe24-pro-up"
   >
     <!-- 전체 중앙 정렬 wrapper -->
     <div
@@ -22,7 +22,7 @@
       </div>
 
       <!-- start 버튼 (router-link) -->
-      <router-link to="/test00" class="inline-block">
+      <router-link to="./test00" class="inline-block">
         <div
           class="font-bagel-fat-one bg-white rounded-[15px] shadow-md w-[240px] h-[45px] flex items-center justify-center gap-2"
         >

@@ -1,7 +1,7 @@
 <template>
   <div
     class="min-h-screen w-full bg-cover bg-no-repeat bg-top flex flex-col items-center justify-center px-4 text-black font-bagel-fat-one"
-    :style="{ backgroundImage: `url('/test-00.jpg')` }"
+    :style="{ backgroundImage: `url('./test-00.jpg')` }"
   >
     <div
       v-if="currentQuestion < questions.length"

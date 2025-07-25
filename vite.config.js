@@ -1,7 +1,8 @@
+// vite.config.js
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
+  base: "/ym-proj/", // 👈 이 줄 추가
   plugins: [vue()],
-  base: "/ym-proj/", // <- 저장소 이름
 });
