@@ -1,0 +1,6 @@
+npm run dev --> local에서 test
+npm run build
+git add .
+git commit -m "🔧 GitHub Pages용 빌드 결과 반영"
+git push origin main
+npm run deploy
