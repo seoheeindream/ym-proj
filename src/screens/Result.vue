@@ -146,7 +146,7 @@ async function captureAndDownload() {
 }
 
 function retry() {
-  router.push("/test00");
+  router.push("./test00");
 }
 
 function goToTip() {
