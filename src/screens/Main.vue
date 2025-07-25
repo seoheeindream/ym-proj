@@ -1,6 +1,7 @@
 <template>
   <div
-    class="w-full h-[917px] relative overflow-hidden bg-[url('./main.jpg')] bg-cover bg-no-repeat bg-top text-center text-white font-cafe24-pro-up"
+    class="w-full h-[917px] relative overflow-hidden bg-cover bg-no-repeat bg-top text-center text-white font-cafe24-pro-up"
+    :style="{ backgroundImage: `url(${mainImage})` }"
   >
     <!-- 전체 중앙 정렬 wrapper -->
     <div
@@ -30,7 +31,7 @@
             >start</span
           >
           <img
-            src="/Polygon 1.svg"
+            :src="polygon"
             alt="arrow"
             class="w-[20px] h-[20px] object-contain"
           />
@@ -39,3 +40,8 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const mainImage = new URL("../assets/main.jpg", import.meta.url).href;
+const polygon = new URL("../assets/Polygon 1.svg", import.meta.url).href;
+</script>
