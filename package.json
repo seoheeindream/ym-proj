@@ -1,0 +1,23 @@
+{
+  "name": "ym-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One:wght@400&display=swap");
+@import "tailwindcss/preflight.css" layer(base);
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cafe24+PRO+UP:wght@400&display=swap");
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@layer theme, base, components, utilities;
+
+body {
+  @apply leading-[normal] m-0;
+}
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-width: 0;
+  }
+}
